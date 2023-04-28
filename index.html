@@ -1114,229 +1114,9 @@
               
                 
                 <li><a
-                  href='#'
+                  href='#constant'
                   class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
-                  
-                </a>
-                
-                </li>
-              
-                
-                <li><a
-                  href='#'
-                  class="">
-                  
+                  Constant
                   
                 </a>
                 
@@ -3252,8 +3032,8 @@ serverUrl - {String} Ad server url. You can use a url to a .js file for testing 
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">var</span> theAdManager = <span class="hljs-keyword">new</span> tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-title class_">AdManager</span>();
-		theAdManager.<span class="hljs-title function_">setServer</span>(<span class="hljs-string">&quot;response.js&quot;</span>);
-		theAdManager.<span class="hljs-title function_">setServer</span>(<span class="hljs-string">&quot;http://g1.v.fwmrm.net/ad/g/1&quot;</span>);</pre>
+theAdManager.<span class="hljs-title function_">setServer</span>(<span class="hljs-string">&quot;response.js&quot;</span>);
+theAdManager.<span class="hljs-title function_">setServer</span>(<span class="hljs-string">&quot;http://g1.v.fwmrm.net/ad/g/1&quot;</span>);</pre>
     
   
 
@@ -4439,9 +4219,9 @@ The dimension object must have property named width and height, the value is uns
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//create an array contains compatible dimensions which are n number of untyped objects</span>
-		<span class="hljs-keyword">var</span> dimensions = [{<span class="hljs-attr">width</span>:<span class="hljs-number">1920</span>, <span class="hljs-attr">height</span>:<span class="hljs-number">1080</span>}, {<span class="hljs-attr">width</span>:<span class="hljs-number">1280</span>, <span class="hljs-attr">height</span>:<span class="hljs-number">720</span>}];
-		<span class="hljs-comment">// pass the array to Context</span>
-		context.<span class="hljs-title function_">setVideoDisplayCompatibleSizes</span>(dimensions);</pre>
+<span class="hljs-keyword">var</span> dimensions = [{<span class="hljs-attr">width</span>:<span class="hljs-number">1920</span>, <span class="hljs-attr">height</span>:<span class="hljs-number">1080</span>}, {<span class="hljs-attr">width</span>:<span class="hljs-number">1280</span>, <span class="hljs-attr">height</span>:<span class="hljs-number">720</span>}];
+<span class="hljs-comment">// pass the array to Context</span>
+context.<span class="hljs-title function_">setVideoDisplayCompatibleSizes</span>(dimensions);</pre>
     
   
 
@@ -11416,18 +11196,14 @@ Process renderer event</p>
 event - {Object}  hash object to be processed. Available keys:
 - 'name' The name of the event, value is one of EVENT_AD_*.
 - 'info' Additional info of event, an object with following keys:</p>
-<pre><code>		*INFO_KEY_CUSTOM_EVENT_NAME*
-		When name is EVENT_AD_CLICK, renderer tells the custom click event to be processed via this key.
-
-		*INFO_KEY_SHOW_BROWSER*
-		Optional. Force opening/not opening the event callback url in new window.
-
-		*INFO_KEY_URL*
-		Optional. Override the url to open or redirect on EVENT_AD_CLICK.
-
-     *INFO_KEY_CONCRETE_EVENT_ID*
-     Optional. When name is EVENT_AD_MEASUREMENT, renderer tells the concrete event ID via this key. The concrete event ID should be a string.
-</code></pre>
+<p><em>INFO_KEY_CUSTOM_EVENT_NAME</em>
+When name is EVENT_AD_CLICK, renderer tells the custom click event to be processed via this key.</p>
+<p><em>INFO_KEY_SHOW_BROWSER</em>
+Optional. Force opening/not opening the event callback url in new window.</p>
+<p><em>INFO_KEY_URL</em>
+Optional. Override the url to open or redirect on EVENT_AD_CLICK.</p>
+<p><em>INFO_KEY_CONCRETE_EVENT_ID</em>
+Optional. When name is EVENT_AD_MEASUREMENT, renderer tells the concrete event ID via this key. The concrete event ID should be a string.</p>
 <p>NOTE:
 This method should not be used to process EVENT_AD_IMPRESSION or EVENT_AD_IMPRESSION_END event. Please use handleStateTransition() for these events.</p>
 
@@ -11470,10 +11246,10 @@ This method should not be used to process EVENT_AD_IMPRESSION or EVENT_AD_IMPRES
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">var</span> event = {<span class="hljs-string">&quot;name&quot;</span>: tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">EVENT_AD_CLICK</span>, <span class="hljs-string">&quot;info&quot;</span>: {}};
-		event[<span class="hljs-string">&quot;info&quot;</span>][tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">INFO_KEY_CUSTOM_EVENT_NAME</span>] = <span class="hljs-string">&quot;CustomClick_1&quot;</span>;
-	event[<span class="hljs-string">&quot;info&quot;</span>][tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">INFO_KEY_SHOW_BROWSER</span>] = <span class="hljs-literal">true</span>;
-	event[<span class="hljs-string">&quot;info&quot;</span>][tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">INFO_KEY_URL</span>] = <span class="hljs-string">&quot;http://www.foo.com&quot;</span>;
-	theFWRendererController.<span class="hljs-title function_">processEvent</span>(event);</pre>
+event[<span class="hljs-string">&quot;info&quot;</span>][tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">INFO_KEY_CUSTOM_EVENT_NAME</span>] = <span class="hljs-string">&quot;CustomClick_1&quot;</span>;
+event[<span class="hljs-string">&quot;info&quot;</span>][tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">INFO_KEY_SHOW_BROWSER</span>] = <span class="hljs-literal">true</span>;
+event[<span class="hljs-string">&quot;info&quot;</span>][tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">INFO_KEY_URL</span>] = <span class="hljs-string">&quot;http://www.foo.com&quot;</span>;
+theFWRendererController.<span class="hljs-title function_">processEvent</span>(event);</pre>
     
   
 
@@ -11554,7 +11330,7 @@ additionalInfo     - Optional. The additional info to be passed, used for failin
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">var</span> info = {<span class="hljs-string">&quot;errorCode&quot;</span>: tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">ERROR_DEVICE_LIMIT</span>, <span class="hljs-string">&quot;errorInfo&quot;</span>: <span class="hljs-string">&quot;Unable to play the ad on this device.&quot;</span>};
-	theFWRendererController.<span class="hljs-title function_">handleStateTransition</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">RENDERER_STATE_FAILED</span>, info);</pre>
+theFWRendererController.<span class="hljs-title function_">handleStateTransition</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">RENDERER_STATE_FAILED</span>, info);</pre>
     
   
 
@@ -12465,70 +12241,18 @@ Get the module info of translator.</p>
   
   <div class='clearfix'>
     
-    <h3 class='fl m0' id=''>
-      
+    <h3 class='fl m0' id='constant'>
+      Constant
     </h3>
     
     
   </div>
   
 
-  <p>Section: Constants
-Constants defined for SDK.</p>
-<p>Namespace:
+  <p>Namespace:
 tv.freewheel.SDK</p>
 
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: ADUNIT_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
+    <div class='pre p1 fill-light mt0'>Constant</div>
   
   
 
@@ -12933,56 +12657,6 @@ Type of ad unit: midroll ad that is displayed when content video is paused.</p>
   </div>
   
 
-  <p>Group: TIME_POSITION_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: TIME_POSITION_CLASS_PREROLL</p>
 
     <div class='pre p1 fill-light mt0'></div>
@@ -13233,56 +12907,6 @@ Type of ad unit: midroll ad that is displayed when content video is paused.</p>
   </div>
   
 
-  <p>Group: PARAMETER_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: PARAMETER_ENABLE_FORM_TRANSPORT</p>
 <pre><code>	Whether or not to send request and ping callbacks by submitting forms.
 This parameter needs to be set before submitting the request.
@@ -13315,7 +12939,7 @@ This parameter needs to be set before submitting the request.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Enable form submitting</span>
-	theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_ENABLE_FORM_TRANSPORT</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_ENABLE_FORM_TRANSPORT</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13376,7 +13000,7 @@ This parameter needs to be set before submitting the request.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Enable JS transport</span>
-	theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_ENABLE_JS_TRANSPORT</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_ENABLE_JS_TRANSPORT</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13438,7 +13062,7 @@ This parameter needs to be set before submitting the request.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Enable JS transport</span>
-	theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_ENABLE_ACCESS_CONTROL_ALLOW_CREDENTIALS</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_ENABLE_ACCESS_CONTROL_ALLOW_CREDENTIALS</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13498,7 +13122,7 @@ This parameter needs to be set before submitting the request.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">// Suppose user bandwidth is 500kbps:</span>
-	theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_DESIRED_BITRATE</span>, <span class="hljs-number">500</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_OVERRIDE</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_DESIRED_BITRATE</span>, <span class="hljs-number">500</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_OVERRIDE</span>);</pre>
     
   
 
@@ -13561,7 +13185,7 @@ Default value is 'text/html_doc_lit_mobile,text/html_doc_ref'. Optional content 
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">// Suppose use &#x27;text/html_doc_lit_mobile&#x27; and &#x27;text/html_doc_ref&#x27;:</span>
-	theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_PAGE_SLOT_CONTENT_TYPE</span>, <span class="hljs-string">&#x27;text/html_doc_lit_mobile,text/html_doc_ref&#x27;</span>,tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_OVERRIDE</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_PAGE_SLOT_CONTENT_TYPE</span>, <span class="hljs-string">&#x27;text/html_doc_lit_mobile,text/html_doc_ref&#x27;</span>,tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_OVERRIDE</span>);</pre>
     
   
 
@@ -13622,7 +13246,7 @@ Default value is 'text/html_doc_lit_mobile,text/html_doc_ref'. Optional content 
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Config AdManager to process click event on an existing element with id &#x27;Element_Click_Target&#x27;</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_AD_CONTROL_CLICK_ELEMENT</span>, <span class="hljs-string">&#x27;Element_Click_Target&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_AD_CONTROL_CLICK_ELEMENT</span>, <span class="hljs-string">&#x27;Element_Click_Target&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13685,7 +13309,7 @@ Default value is true.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Disable the content video extension, player will handle all the EVENT_CONTENT_VIDEO_* events.</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_CONTENT_VIDEO_ENABLED</span>, <span class="hljs-literal">false</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_CONTENT_VIDEO_ENABLED</span>, <span class="hljs-literal">false</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13748,7 +13372,7 @@ Default value is true.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Disable pause ad extension</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_PAUSE_AD_ENABLE</span>, <span class="hljs-literal">false</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_PAUSE_AD_ENABLE</span>, <span class="hljs-literal">false</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13811,7 +13435,7 @@ Default value is false.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Enable the OMSDK extension</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_OMSDK_ENABLED</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_OMSDK_ENABLED</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13877,7 +13501,7 @@ Default value is false.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Enable the SkippableAdExtension</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_ENABLED</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_ENABLED</span>, <span class="hljs-literal">true</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -13941,7 +13565,7 @@ Default value is false.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Config the SkippableAdExtension to process click event on an existing element with id &#x27;Skip_Button_Element_Id&#x27;</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_CONTROL_CLICK_ELEMENT</span>, <span class="hljs-string">&#x27;Skip_Button_Element_Id&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_CONTROL_CLICK_ELEMENT</span>, <span class="hljs-string">&#x27;Skip_Button_Element_Id&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -14004,7 +13628,7 @@ Default value is false.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Config the SkippableAdExtension to display &#x27;Custom Button Text&#x27; on the skip button.</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_BUTTON_TEXT</span>, <span class="hljs-string">&#x27;Custom Button Text&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_BUTTON_TEXT</span>, <span class="hljs-string">&#x27;Custom Button Text&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -14067,7 +13691,7 @@ Default value is false.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Config the SkippableAdExtension to set the default skip button className to &#x27;CssClass1 CssClass2&#x27;,</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_BUTTON_CLASS</span>, <span class="hljs-string">&#x27;CssClass1 CssClass2&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_SKIPPABLE_AD_BUTTON_CLASS</span>, <span class="hljs-string">&#x27;CssClass1 CssClass2&#x27;</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -14135,7 +13759,7 @@ Default value is true.
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-comment">//Disable the auto seeking back logic.</span>
-		theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_CONTENT_VIDEO_AUTO_SEEK_BACK</span>, <span class="hljs-literal">false</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
+theContext.<span class="hljs-title function_">setParameter</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_EXTENSION_CONTENT_VIDEO_AUTO_SEEK_BACK</span>, <span class="hljs-literal">false</span>, tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">PARAMETER_LEVEL_GLOBAL</span>);</pre>
     
   
 
@@ -15578,56 +15202,6 @@ JS AdManager versions 6.28.0 - 6.33.0 will only support TCF/CMP API 1.0 and 1.1.
   </div>
   
 
-  <p>Group: PARAMETER_LEVEL_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: PARAMETER_LEVEL_PROFILE</p>
 
     <div class='pre p1 fill-light mt0'></div>
@@ -15778,56 +15352,6 @@ JS AdManager versions 6.28.0 - 6.33.0 will only support TCF/CMP API 1.0 and 1.1.
   </div>
   
 
-  <p>Group: CAPABILITY_STATUS_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: CAPABILITY_STATUS_OFF</p>
 
     <div class='pre p1 fill-light mt0'></div>
@@ -15879,56 +15403,6 @@ JS AdManager versions 6.28.0 - 6.33.0 will only support TCF/CMP API 1.0 and 1.1.
   
 
   <p>Constant: CAPABILITY_STATUS_ON</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: CAPABILITY_*</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -16437,56 +15911,6 @@ Player expects ad server to return complete callbacks besides impression. Need t
   </div>
   
 
-  <p>Group: EVENT_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: EVENT_REQUEST_COMPLETE
 Type of AdManager event: an ad request is complete, either success or failure.</p>
 <pre><code>	A player *MUST* respond to this event.
@@ -16784,56 +16208,6 @@ subType - the name of the renderer event, must be one of the following:
 - &#x3C;EVENT_RESELLER_NO_AD>
 adInstance - the target ad.
 slot - the target slot.</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: EVENT_AD_*</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -18082,56 +17456,6 @@ Event name: Ad Concrete event.</p>
   </div>
   
 
-  <p>Group: EVENT_CONTENT_VIDEO_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: EVENT_CONTENT_VIDEO_PAUSE_REQUEST
 Type of AdManager event: adManager is requesting to pause content video.</p>
 <pre><code>	This event is added to facilitate the communication between adManager and player on the playback control of content video.
@@ -18201,56 +17525,6 @@ Type of AdManager event: adManager is requesting to resume content video playbac
 </code></pre>
 <p>Event Parameters:
 type   - EVENT_CONTENT_VIDEO_RESUME_REQUEST</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: ID_TYPE_*</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -18404,56 +17678,6 @@ Type of id: a custom id provided by non-FreeWheel parties.</p>
 
   <p>Constant: ID_TYPE_GROUP
 Type of id: a unique group id provided by FreeWheel.</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: VIDEO_STATE_*</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -18707,56 +17931,6 @@ Current video has completed playing.</p>
   </div>
   
 
-  <p>Group: VIDEO_ASSET_AUTO_PLAY_TYPE_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: VIDEO_ASSET_AUTO_PLAY_TYPE_ATTENDED
 Video asset auto play type: attended.</p>
 
@@ -18961,56 +18135,6 @@ Video asset auto play type: click to play.</p>
   </div>
   
 
-  <p>Group: VIDEO_ASSET_DURATION_*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: VIDEO_ASSET_DURATION_TYPE_EXACT
 Video asset duration type: exact.</p>
 
@@ -19064,56 +18188,6 @@ Video asset duration type: exact.</p>
 
   <p>Constant: VIDEO_ASSET_DURATION_TYPE_VARIABLE
 Video asset duration type: variable.</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: REQUEST_MODE_*</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -19265,58 +18339,6 @@ Request mode: live.</p>
   </div>
   
 
-  <p>Group: RENDERER_STATE_*</p>
-<p>Namespace:
-tv.freewheel.SDK</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: RENDERER_STATE_STARTED</p>
 
     <div class='pre p1 fill-light mt0'></div>
@@ -19418,58 +18440,6 @@ tv.freewheel.SDK</p>
   
 
   <p>Constant: RENDERER_STATE_FAILED</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: EVENT_TYPE_*</p>
-<p>Namespace:
-tv.freewheel.SDK</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -19670,58 +18640,6 @@ tv.freewheel.SDK</p>
   
 
   <p>Constant: EVENT_TYPE_STANDARD</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: EVENT_AD_*</p>
-<p>Namespace:
-tv.freewheel.SDK</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -20671,108 +19589,8 @@ tv.freewheel.SDK</p>
   </div>
   
 
-  <p>Group: EVENT_VIDEO_DISPLAY_BASE*</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: EVENT_VIDEO_DISPLAY_BASE_CHANGED
 An event sent when the video display base has changed.</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: EVENT_USER_ACTION_*</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -20851,9 +19669,9 @@ Used to notify AdManager of a user action</p>
     
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">var</span> event = {
-			<span class="hljs-attr">action</span>: tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">EVENT_USER_ACTION_PAUSE_BUTTON_CLICKED</span>
-		};
-		theContext.<span class="hljs-title function_">dispatchEvent</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">EVENT_USER_ACTION_NOTIFIED</span>, event);</pre>
+<span class="hljs-attr">action</span>: tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">EVENT_USER_ACTION_PAUSE_BUTTON_CLICKED</span>
+};
+theContext.<span class="hljs-title function_">dispatchEvent</span>(tv.<span class="hljs-property">freewheel</span>.<span class="hljs-property">SDK</span>.<span class="hljs-property">EVENT_USER_ACTION_NOTIFIED</span>, event);</pre>
     
   
 
@@ -21285,58 +20103,6 @@ Gets the boolean value associated with whether the skippable state has changed.<
   </div>
   
 
-  <p>Group: MODULE_TYPE_*</p>
-<p>Namespace:
-tv.freewheel.SDK</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
   <p>Constant: MODULE_TYPE_EXTENSION</p>
 
     <div class='pre p1 fill-light mt0'></div>
@@ -21438,58 +20204,6 @@ tv.freewheel.SDK</p>
   
 
   <p>Constant: MODULE_TYPE_TRANSLATOR</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: ERROR_*</p>
-<p>Namespace:
-tv.freewheel.SDK</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
@@ -22190,56 +20904,6 @@ tv.freewheel.SDK</p>
   
 
   <p>Constant: ERROR_DASHJS</p>
-
-    <div class='pre p1 fill-light mt0'></div>
-  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</section>
-
-          
-        
-          
-          <section class='p2 mb2 clearfix bg-white minishadow'>
-
-  
-  <div class='clearfix'>
-    
-    <h3 class='fl m0' id=''>
-      
-    </h3>
-    
-    
-  </div>
-  
-
-  <p>Group: TRANSLATOR_STATE_*</p>
 
     <div class='pre p1 fill-light mt0'></div>
   
